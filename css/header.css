@@ -1,0 +1,113 @@
+header {
+    background-color: #F9F6F5;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.navbar span a {
+    color: #222;
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 3rem;
+    text-decoration-line: underline;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+
+ul li a {
+    color: #222;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.navbar_icon {
+    display: flex;
+    gap: 2.4rem;
+}
+
+header .hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.hero_info .public_h2{
+    margin-top: 10.8rem;
+}
+
+.hero_info .public_p {
+    padding: 3rem 0;
+}
+
+.hero_info input {
+
+    width: 32.6rem;
+    height: 4.8rem;
+    padding: 1.4rem 25.8rem 1.4rem 1.6rem;
+}
+
+.hero_info label {
+    position: absolute;
+    top: 41.2rem;
+    left: 28.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: #402F2C;
+    align-items: center;
+}
+
+.hero_info button {
+    width: 15rem;
+    padding: 1.6rem 3.2rem;
+    background-color: #402F2C;
+    margin: 6rem 0 10.9rem 0;
+}
+
+.hero_info button a {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+.hero_img {
+
+    width: 50%;
+}
+
+.hero_img img {
+    position: relative;
+    width: 100%;
+}
+
+.hero_img .arrow {
+    position: absolute;
+    top: 41rem;
+    left: 60rem;
+    width: 14.5rem;
+    height: 13.8rem;
+    background-color: #F9F6F5;
+}
+
+.arrow i {
+    font-size: 2.4rem;
+}

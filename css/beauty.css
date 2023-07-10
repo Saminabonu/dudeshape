@@ -1,0 +1,58 @@
+.perfect, .amazing{
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    margin-bottom: 13rem;
+}
+.perfect_info h2 + p{
+    padding: 2rem 0 2rem 0;
+}
+.perfect_info button{
+    margin-top: 5rem;
+    padding: 1.6rem 3.2rem;
+    background-color: #402F2C;
+    color: #FFF;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.4rem;
+cursor: pointer;
+}
+.amazing_info h4{
+    color: #222;
+font-size: 3rem;
+font-style: normal;
+font-weight: 500;
+line-height: 4rem;
+}
+.amazing h5{
+    color: #555;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.4rem;
+margin: 1rem 0 2.2rem 0;
+}
+.amazing_info img{
+    margin-top: 1.2rem;
+}
+.amazing_info p{
+    margin: 4.3rem 0 7.9rem 0;
+}
+.amazing_icon{
+    display: flex;
+    gap: 2.8rem;
+}
+.amazing_icon i{
+    display: flex;
+    width: 1.6rem;
+    height: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #6fb587; 
+}
+.amazing_icon .left, .amazing_icon .right{
+    border: 1px solid #6fb587;
+    border-radius: 50%;
+}

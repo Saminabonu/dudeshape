@@ -1,0 +1,25 @@
+.brand{
+    display: flex;
+    flex-direction: column;
+}
+.brand_info p{
+    color: #E4E4E4;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14rem;
+    text-transform: uppercase;
+    margin: 5.1rem 0 5.1rem;
+}
+.brand .line{
+    width: 117.2rem;
+height: 0.1rem;
+background-color: #eee;
+}
+.brand_img{
+    display: flex;
+    gap: 12.02rem;
+    padding: 4.45rem 0;
+}
